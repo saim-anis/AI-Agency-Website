@@ -32,6 +32,7 @@ header {
    padding: 20px 90px;
    color: white;
    position: fixed;
+   z-index: 1;
 
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -52,6 +53,7 @@ nav {
    margin-top: 20px;
    position: fixed;
    left: 40%;
+   
 
 
 
@@ -225,10 +227,26 @@ nav ul li a {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#section-heading{
+   font-size: 50px;
+   font-weight: bold;
+   margin-bottom: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.our-services-para{
+   color: #ffff;
+   font-size: 18px;
+}
 
-
-
-
+.service-buttons{
+   color: #fff;
+   background-color: #141414;
+   padding: 5px;
+   border-radius: 8px;
+   border: 0.2px solid grey;
+   cursor: pointer;  
+   margin-block: 20px;
+}
 
 /* .hero-content {
    width: 80%;
@@ -320,4 +338,3 @@ footer a:hover {
       width: 100%;
    }
 }
-
